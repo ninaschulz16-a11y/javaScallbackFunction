@@ -1,16 +1,16 @@
 
 console.log('Time to shine baby!')
 
-const pet = {
+// a method is a function that is part of an object
 
-    name: "Lexi",
-    age: 13,
-    colour: "dark brown",
-    favouriteFood : "everything",
+const sailorJupiter = {
+    name: "Makoto Kino";
+    age: 14;
+    planet: "Jupiter";
+    power: "electricity";
+    attack: function () {
+        console.log("supreme thunder!!!")
+    }
+}
 
-};
-
-console.log(pet.name);
-console.log(pet.age);
-console.log(pet.colour);
-console.log(pet.favouriteFood);
+sailorJupiter ()
